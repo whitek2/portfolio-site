@@ -1,5 +1,5 @@
-baseURL = "/"
-title = "My Portfolio Title"
+baseURL = "kaleighjwhite"
+title = "Kaleigh White"
 theme = "PaperMod"
 
 # Theme configuration
@@ -23,9 +23,9 @@ iconHeight = 24
 
 [params.profileMode]
 enabled = true
-title = "Jane Doe"
+title = "Kaleigh White"
 subtitle = "I am a Person"
-imageUrl = "profile.png"
+imageUrl = "cute.jpg"
 imageWidth = 120
 imageHeight = 120
 
