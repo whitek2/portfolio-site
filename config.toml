@@ -26,8 +26,8 @@ enabled = true
 title = "Kaleigh White"
 subtitle = "I am a Person"
 imageUrl = "cute.jpg"
-imageWidth = 1280
-imageHeight = 962
+imageWidth = 800
+imageHeight = 600
 
 [[params.profileMode.buttons]]
 name = "tags"
