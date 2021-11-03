@@ -41,14 +41,6 @@ url = "https://google.com/search?tbm=isch&q=puppies"
 name = "instagram"
 url = "https://instagram.com/"
 
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/"
-
-[[params.socialIcons]]
-name = "gitlab"
-url = "https://gitlab.com/"
-
 [[menu.main]]
 identifier = "blog"
 name = "blog"
