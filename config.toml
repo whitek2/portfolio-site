@@ -23,11 +23,11 @@ iconHeight = 24
 
 [params.profileMode]
 enabled = true
-title = "Jane Doe"
+title = "Kaleigh White"
 subtitle = "I am a Person"
-imageUrl = "profile.png"
-imageWidth = 120
-imageHeight = 120
+imageUrl = "cute.jpg"
+imageWidth = 1280
+imageHeight = 962
 
 [[params.profileMode.buttons]]
 name = "tags"
