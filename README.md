@@ -1,10 +1,30 @@
 # hugo-starter
 
+This repository contains a template that uses [Netlify](https://www.netlify.com/), [Hugo](https://gohugo.io/), and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) Hugo theme. Read the the `README.md` file below for step-by-step instructions to get a personal portfolio website up and running.
+
+## Step 1: Deploy this template
+
+To start using this template, deploy it to [Netlify](https://www.netlify.com/) with the button below.
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/allegheny-college-junior-innovators/hugo-starter)
 
-This template uses [Netlify](https://www.netlify.com/), [Hugo](https://gohugo.io/), and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) Hugo theme. You can use the button above to instantly create a new repository based off of this one, and deploy it to Netlify for free.
+You will need to create an account if you don't have one, and link your GitHub account.
 
-The following values should be configured or removed in your deployed instance of this template.
+This button will cause Netlify to authenticate with GitHub and create a new repository based off of this template, and then set up deployment through Netlify's hosting services.
+
+## Step 2: Set your URL
+
+Now that you have your website set up on Netlify, click on the "Deploys" tab and view the most recent deploy -- that is the template itself being built! To visit your new website, look under the "Deploys for ..." header for a link ending in `netlify.app`. You can visit that link and see the base template.
+
+However, that link is not the most useful or memorable web address -- let's change it to something better! In Netlify, navigate to the "Site settings" tab (it is at the very end of the navigation bar at the top). Then, click the "Change site name" button and enter a better url for your site, like your name.
+
+Once you have done that, you can navigate back to the Deploys tab or look at the top of the Site settings for the new link to your website; save that link as you'll want to enter it as the `baseURL` value in a later step, and share it with your network.
+
+## Step 3: Customize your website
+
+Navigate to the "Deploys" tab in Netlify again, and look for the GitHub link under the "Deploys for ..." header. Click that, and you'll be navigated to the repository that Netlify created for you! Now, edit the files in this repository to set the contents of your website. The following values and files should be configured or removed.
+
+> If you're in a hurry, hit `.` when you're on the main repository page on GitHub and a web instance of VSCode will open. You can use this editor to edit files, make commits, and view the README, although you cannot run any terminal commands.
 
 In `config.toml`:
 
