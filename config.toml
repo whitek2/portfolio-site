@@ -1,4 +1,5 @@
 baseURL = "kaleighjwhite"
+languageCode = "en-us"
 title = "Kaleigh White"
 theme = "personal-web"
 
@@ -18,7 +19,7 @@ disableScrollToTop = false
 
 [params.label]
 text = "Home"
-icon = "/profile.png"
+icon = "/cute.jpg"
 iconHeight = 24
 
 [params.profileMode]
