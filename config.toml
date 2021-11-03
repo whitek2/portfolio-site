@@ -1,7 +1,7 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Kaleigh White"
-theme = "personal-web"
+theme = "theme.toml"
 copyright="© Kaleigh White"
 googleAnalytics = ""
 enableEmoji=true
