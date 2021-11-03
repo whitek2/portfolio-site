@@ -1,7 +1,7 @@
 baseURL = "kaleighjwhite"
 languageCode = "en-us"
 title = "Kaleigh White"
-theme = "theme.toml"
+theme = "personal-web"
 copyright="© Kaleigh White"
 googleAnalytics = ""
 enableEmoji=true
