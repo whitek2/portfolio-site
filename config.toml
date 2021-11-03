@@ -66,3 +66,4 @@ identifier = "link"
 name = "A link"
 url = "https://google.com/search?tbm=isch&q=cute%20puppies"
 weight = 30
+theme = "personal-web"
