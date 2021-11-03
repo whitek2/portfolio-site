@@ -38,16 +38,8 @@ name = "puppies"
 url = "https://google.com/search?tbm=isch&q=puppies"
 
 [[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/"
-
-[[params.socialIcons]]
 name = "instagram"
 url = "https://instagram.com/"
-
-[[params.socialIcons]]
-name = "stackoverflow"
-url = "https://stackoverflow.com"
 
 [[params.socialIcons]]
 name = "github"
