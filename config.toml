@@ -1,70 +1,100 @@
-baseURL = "kaleighjwhite"
+baseURL = "https://example.com/"
 languageCode = "en-us"
-title = "Kaleigh White"
+title = "Edna West"
 theme = "personal-web"
+copyright="© Edna West"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
 
-# Theme configuration
+[params.intro]
+  main = "Hi, I'm Edna 👋"
+  sub = "I'm a Web Developer and Entrepreneur"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
 [params]
-env = "production"
-author = "<author>"
-description = "Portfolio description"
-keywords = ["Blog", "Portfolio", "personal-web"]
-disableThemeToggle = false
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-disableScrollToTop = false
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio']
 
-[params.label]
-text = "Home"
-icon = "/cute.jpg"
-iconHeight = 24
+[params.notFound]
+  gopher = "/images/gopher.png"
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
 
-[params.profileMode]
-enabled = true
-title = "Kaleigh White"
-subtitle = "I am a bean head"
-imageUrl = "cute.jpg"
-imageWidth = 800
-imageHeight = 600
+[params.sections]
+  post = "article"
+  portfolio = "project"
 
-[[params.profileMode.buttons]]
-name = "tags"
-url = "/tags/"
+[params.sidebar]
+  backgroundImage = ''
+  gradientOverlay = ''
+  logo = ""
 
-[[params.profileMode.buttons]]
-name = "puppies"
-url = "https://google.com/search?tbm=isch&q=puppies"
+[params.assets]
+  favicon = ""
+  customCSS = ""
 
-[[params.socialIcons]]
-name = "instagram"
-url = "https://instagram.com/"
+[params.social]
+  github = "https://github.com/"
+  twitter = "https://twitter.com/"
+  linkedin = "https://www.linkedin.com/in/"
+  medium = "https://medium.com/"
+  codepen = "https://codepen.io/"
+  facebook = "https://www.facebook.com/"
+  youtube = "https://www.youtube.com/"
+  instagram = "https://www.instagram.com/"
+  gitlab = "https://gitlab.com/"
+  keybase = "https://keybase.io/"
 
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/"
+[params.contact]
+  email = ""
+  text= ""
 
-[[params.socialIcons]]
-name = "gitlab"
-url = "https://gitlab.com/"
+
+[menu]
 
 [[menu.main]]
-identifier = "blog"
-name = "blog"
-url = "/blog/"
-weight = 10
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/about/"
+  weight = -120
 
 [[menu.main]]
-identifier = "projects"
-name = "projects"
-url = "/projects/"
-weight = 20
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio/"
+  weight = -110
 
 [[menu.main]]
-identifier = "link"
-name = "A link"
-url = "https://google.com/search?tbm=isch&q=cute%20puppies"
-weight = 30
-theme = "personal-web"
+  identifier = "blog"
+  name = "Post"
+  title = "Blog section"
+  url = "/post/"
+  weight = -100
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
