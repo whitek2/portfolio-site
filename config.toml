@@ -23,9 +23,9 @@ iconHeight = 24
 
 [params.profileMode]
 enabled = true
-title = "Kaleigh White"
+title = "Jane Doe"
 subtitle = "I am a Person"
-imageUrl = "cute.jpg"
+imageUrl = "profile.png"
 imageWidth = 120
 imageHeight = 120
 
