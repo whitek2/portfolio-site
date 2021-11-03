@@ -50,6 +50,8 @@ In `contents/`:
 
 Experimentation and creativity in organizing and creating content for your website is very important! If you are confused or would like to find out more about the possible configuration options of the PaperMod theme, visit the [demo website](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/), which lists many of the available configuration options not used in this template.
 
+## Alternatives
+
 If the PaperMod theme isn't quite to your liking, you can easily remove it (use `git rm themes/PaperMod`) and use a different theme! There are many to choose from; [themes.gohugo.io](https://themes.gohugo.io/) contains hundreds of options. Below are a few options and the command you could use to add that theme (after removing PaperMod).
 
 - [Gokarna](https://github.com/526avijitgupta/gokarna) - `git submodule add https://github.com/526avijitgupta/gokarna.git themes/gokarna` - [Setup Guide](https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/)
